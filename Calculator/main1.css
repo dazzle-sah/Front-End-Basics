@@ -47,3 +47,10 @@ text-align: center;
                     background-color: rgb(251, 241, 229);
                     width: 300px;
                 }
+
+         .container{
+            margin: auto;
+            width: 325px;
+            height: 75px;
+                    
+           }
