@@ -37,4 +37,6 @@ text-align: center;
 
         .button:hover {
             background: #1C6EA4; }
-            
+        
+            .button:active {
+                background: #144E75; }
