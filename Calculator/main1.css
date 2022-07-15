@@ -40,3 +40,10 @@ text-align: center;
         
             .button:active {
                 background: #144E75; }
+
+                .row{
+                    padding: auto;
+                    margin:auto;
+                    background-color: rgb(251, 241, 229);
+                    width: 300px;
+                }
