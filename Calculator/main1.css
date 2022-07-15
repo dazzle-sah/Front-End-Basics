@@ -1,0 +1,13 @@
+h1{
+    font-family: Georgia, serif;
+font-size: 29px;
+letter-spacing: -0.6px;
+word-spacing: 2.6px;
+color: #065100;
+font-weight: 700;
+text-decoration: underline solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+text-align: center;
+}
