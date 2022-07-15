@@ -67,3 +67,13 @@ text-align: center;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
            
         }
+
+        .contain{
+            background-color: bisque;
+            width: 350px;
+            height: 440px;
+            margin: auto;
+            border: 7px ridge #000000;
+            border-radius: 35px;
+        }
+        
