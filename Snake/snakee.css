@@ -47,3 +47,17 @@ background: linear-gradient(to bottom, #F9FF49 0%, #FFB653 50%, #F8F4A1 100%);
     border: 5px ridge #000000;
     /* background: linear-gradient(to right, #954C7A 0%, #6f0d0d 50%, #954C7A 100%); */
 }
+
+.info{
+    font-family: Tahoma, Geneva, sans-serif;
+font-size: 24px;
+letter-spacing: -0.2px;
+word-spacing: 0.6px;
+color: #f4f998;
+font-weight: normal;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: none;
+text-align: center;
+}
