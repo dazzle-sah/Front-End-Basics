@@ -40,3 +40,10 @@ margin-bottom: 35px;
    
 background: linear-gradient(to bottom, #F9FF49 0%, #FFB653 50%, #F8F4A1 100%);
 }
+
+.head{
+    background-color: #000000;
+    border-radius: 15px;
+    border: 5px ridge #000000;
+    /* background: linear-gradient(to right, #954C7A 0%, #6f0d0d 50%, #954C7A 100%); */
+}
