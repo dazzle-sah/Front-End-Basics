@@ -67,3 +67,9 @@ text-align: center;
     border-radius: 10px;
     border: 4px ridge #000000;
 }
+
+.snake{
+    border-radius: 15px;
+    background-color: #9c9ef4;
+    border: 2px ridge #000000;
+}
