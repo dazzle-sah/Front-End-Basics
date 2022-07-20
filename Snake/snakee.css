@@ -17,3 +17,14 @@ text-transform: none;
 margin-top: 35px;
 margin-bottom: 35px;
 }
+
+.body{
+    background-color: rgb(58, 147, 147);
+    min-width: 800px;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+
+}
