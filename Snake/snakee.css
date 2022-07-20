@@ -28,3 +28,15 @@ margin-bottom: 35px;
     align-items:center ;
 
 }
+
+#board{
+    margin: auto;
+    border: 4px dashed #000000;
+    width: 80vmin;
+    height: 80vmin;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+   
+background: linear-gradient(to bottom, #F9FF49 0%, #FFB653 50%, #F8F4A1 100%);
+}
