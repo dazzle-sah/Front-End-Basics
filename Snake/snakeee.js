@@ -57,8 +57,12 @@ function gameEngine(){
         food = {x: Math.round(a + (b-a)* Math.random()), y: Math.round(a + (b-a)* Math.random())}
     }
 
-    for(let i = snakeArr.length - 2; i >= 0; i--){
-        // const element = array[i];
+    for(let i = snakeArr.length - 2; i >= 0; i--)
+    {
         snakeArr[i+1] = {...snakeArr[i]};
     }
+
+    snakeArr[0].x += inputDir.x;
+    snakeArr[0].y += inputDir.y;
+
 }
