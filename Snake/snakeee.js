@@ -85,3 +85,45 @@ function gameEngine(){
     board.appendChild(foodElement);
 
 }
+let hiscore = localStorage.getItem("Highest Score");
+if(hiscore === null){
+    hiscoreval =0;
+    localStorage.setItem("Highest Score", JSON.stringify(hiscoreval))
+}
+else{
+    hiscoreval = JSON.parse(hiscore);
+    hiscoreBox.innerHTML = "Highest Score : " + hiscoreval;
+}
+window.requestAnimationFrame(main);
+window.addEventListener('keydown',e=>{
+inputDir = {x:0,y:1}
+moveSound.play();
+switch(e.key){
+    case "ArrowUp":
+        console.log("ArrowUp");
+        inputDir.x=0;
+        inputDir.y=-1;
+        break;
+
+        case "ArrowDown":
+        console.log("ArrowDown");
+        inputDir.x=0;
+        inputDir.y=1;
+        break;
+
+        case "ArrowRight":
+        console.log("ArrowRight");
+        inputDir.x=1;
+        inputDir.y=0;
+        break;
+
+        case "ArrowLeft":
+        console.log("ArrowLeft");
+        inputDir.x=-1;
+        inputDir.y=0;
+        break;
+
+        default:
+            break;
+}
+});
